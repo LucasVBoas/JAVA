@@ -12,7 +12,7 @@ public class Exemplos {
         System.out.println("Nota do Challenge:");
         float challenge = scanner.nextFloat();
         //Calcular a media
-        double media = cp * 0.2 + 0.6 + challenge * 0.2;
+        double media = cp * 0.2 + gs * 0.6 + challenge * 0.2;
         //exibir a media
         System.out.println("A média final é " + media);
     }
